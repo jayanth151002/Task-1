@@ -1,0 +1,99 @@
+body{
+    color:chartreuse;
+    background: url("bg-intro-desktop.png"),fixed,linear-gradient(#fa6469,#fa6469);    
+}
+#box1{
+    color:white;
+    width:700px;
+    height:350px;
+    background-color:none;
+    margin:10px;
+    padding:10px;
+    padding-top:200px;
+    text-align: center;
+    border:5px solid none;
+    font-weight:bold;
+    font-size:50px;
+    font-family:"Poppins";
+    
+}
+
+#box2{
+    color:white;
+    width:400px;
+    height:20px;
+    background-color:#8800c7;
+    margin:10px;
+    margin-top:-530px;
+    margin-left:900px;
+    padding:10px;
+    border:5px solid #8800c7;
+    border-radius:10px ;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family:"Rubik";
+}
+
+#box3{
+    width:400px;
+    height:450px;
+    background-color:white;
+    margin:10px;
+    margin-top:50px;
+    margin-left:900px;
+    padding:10px;
+    border:5px solid white;
+    border-radius:10px ;
+}
+#text1{
+    font-size:12px;
+    color:white;
+    text-align: left;
+    padding-left:150px;
+    font-family:"Rubik";
+    letter-spacing: 1px;
+    font-weight: lighter;
+    line-height:1.5;
+}
+
+input[type=email],input[type=text],input[type=password]{
+    width:360px;
+    padding:12px 20px;
+    margin:20px;
+    border:1px solid grey;
+    border-radius:7px;
+    font-family:"Rubik";
+    color:grey;
+}
+
+input[type=email]:focus,input[type=text]:focus,input[type=password]:focus{
+    border-color:black;
+    border-radius:7px;
+    color:black;
+}
+
+input[type=submit]{
+    width:360px;
+    padding:12px 20px;
+    margin:20px;
+    font-family:"Rubik";
+    background-color: #00c75d;
+    color:white;
+    border:1px solid #00c75d;
+    border-bottom:#009244 ;
+    border-radius:7px;
+    box-shadow:0px 5px #009244;
+}
+
+input[type=submit]:hover{
+    background-color:#009244;
+    box-shadow:0px 5px white;
+}
+#text2{
+    font-size:9px;
+    color:grey;
+    text-align: center;
+    font-family:"Rubik";
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
